@@ -1,7 +1,7 @@
 ---
-name: codebase-to-wordpress-converter
-title: "Codebase to WordPress Converter"
-description: "Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme."
+name: wordpress-theme-architect
+title: "WordPress Theme Architect"
+description: "Expert skill for converting any codebase into a pixel-perfect, SEO-optimized, and dynamic WordPress theme."
 version: "1.0.0"
 category: "coding"
 risk: "safe"
@@ -10,7 +10,7 @@ date_added: "2026-04-12"
 tags: ["wordpress", "react", "nextjs", "conversion", "pixel-perfect"]
 ---
 
-# Codebase to WordPress Converter 🏗️🔄
+# WordPress Theme Architect 🏗️🔄
 
 ## Overview
 This skill is designed for the high-fidelity conversion of static or React-based frontends into fully functional, CMS-driven WordPress themes. It acts as a **Senior WordPress Architect**, **React Expert**, and **QA Engineer** to ensure a 100% pixel-perfect match while integrating deep WordPress functionality like ACF, dynamic menus, and technical SEO preservation.

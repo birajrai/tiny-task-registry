@@ -1,6 +1,6 @@
-# Codebase to WordPress Converter Skill 🏗️🔄
+# WordPress Theme Architect Skill 🏗️🔄
 
-High-fidelity conversion of static codebases (React, HTML, Next.js) into professional, production-ready WordPress themes.
+Expert conversion of static codebases into professional, production-ready WordPress themes.
 
 ## 🌟 Key Features
 
