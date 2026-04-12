@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-04-12T14:29:32.891Z",
+  "generatedAt": "2026-04-12T14:51:36.442Z",
   "skills": [
+    {
+      "name": "wp-acf-conflict-fix",
+      "title": "WordPress ACF Activation Conflict Fix",
+      "description": "Resolves PHP fatal errors during ACF plugin activation by implementing function-existence checks for fallbacks.",
+      "version": "1.0.0",
+      "category": "coding",
+      "risk": "safe",
+      "author": "WHOISABHISHEKADHIKARI",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "acf",
+        "debugging",
+        "php"
+      ],
+      "path": "registry\\coding\\wp-acf-conflict-fix\\SKILL.md"
+    },
+    {
+      "name": "prompt-architect",
+      "title": "The Prompt Architect",
+      "description": "A meta-skill designed to help contributors write high-performance, structured tiny-tasks for this registry.",
+      "version": "1.0.0",
+      "category": "general",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "meta",
+        "prompt-engineering",
+        "contributing",
+        "guide"
+      ],
+      "path": "registry\\general\\prompt-architect\\SKILL.md"
+    },
     {
       "name": "wordpress-blogwriter",
       "title": "WordPress SEO Blogwriter",
@@ -17,6 +51,23 @@
         "copywriting"
       ],
       "path": "registry\\seo\\wordpress-blogwriter\\SKILL.md"
+    },
+    {
+      "name": "wordpress-forensic-audit",
+      "title": "WordPress Forensic UI & SEO Audit",
+      "description": "Performs a strict side-by-side audit of WordPress templates against React/HTML sources to ensure pixel-perfection.",
+      "version": "1.0.0",
+      "category": "seo",
+      "risk": "safe",
+      "author": "WHOISABHISHEKADHIKARI",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "ui-audit",
+        "seo",
+        "pixel-perfect"
+      ],
+      "path": "registry\\seo\\wordpress-forensic-audit\\SKILL.md"
     }
   ]
 }
