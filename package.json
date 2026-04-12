@@ -1,0 +1,40 @@
+{
+  "name": "tiny-task-registry",
+  "version": "1.0.0",
+  "description": "Scalable directory for micro-contributions and tiny-tasks.",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node tools/scripts/validate-registry.js",
+    "build": "node tools/scripts/generate-catalog.js",
+    "lint:js": "eslint . --ext .js",
+    "lint:md": "markdownlint registry/**/*.md docs/**/*.md",
+    "format": "prettier --write .",
+    "review": "node tools/scripts/ai-reviewer.js",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "tiny-task",
+    "registry",
+    "skills",
+    "ai",
+    "micro-contributions",
+    "code-review"
+  ],
+  "author": "Tiny-Task Registry Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "markdownlint-cli": "^0.34.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  }
+}

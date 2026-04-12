@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-04-12T15:28:52.340Z",
+  "skills": [
+    {
+      "name": "wordpress-theme-architect",
+      "title": "WordPress Theme Architect",
+      "description": "Expert skill for converting any codebase into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.",
+      "version": "1.0.0",
+      "category": "coding",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "react",
+        "nextjs",
+        "conversion",
+        "pixel-perfect"
+      ],
+      "path": "registry\\coding\\wordpress-theme-architect\\SKILL.md"
+    },
+    {
+      "name": "wp-acf-conflict-fix",
+      "title": "WordPress ACF Activation Conflict Fix",
+      "description": "Resolves PHP fatal errors during ACF plugin activation by implementing function-existence checks for fallbacks.",
+      "version": "1.0.0",
+      "category": "coding",
+      "risk": "safe",
+      "author": "WHOISABHISHEKADHIKARI",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "acf",
+        "debugging",
+        "php"
+      ],
+      "path": "registry\\coding\\wp-acf-conflict-fix\\SKILL.md"
+    },
+    {
+      "name": "prompt-architect",
+      "title": "The Prompt Architect",
+      "description": "A meta-skill designed to help contributors write high-performance, structured tiny-tasks for this registry.",
+      "version": "1.0.0",
+      "category": "general",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "meta",
+        "prompt-engineering",
+        "contributing",
+        "guide"
+      ],
+      "path": "registry\\general\\prompt-architect\\SKILL.md"
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "title": "LinkedIn Profile Optimizer",
+      "description": "Expert Professional Branding Strategist for high-impact LinkedIn headlines, 'About' sections, and experience descriptions.",
+      "version": "1.0.0",
+      "category": "marketing",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "linkedin",
+        "personal-branding",
+        "career",
+        "copywriting"
+      ],
+      "path": "registry\\marketing\\linkedin-profile-optimizer\\SKILL.md"
+    },
+    {
+      "name": "wordpress-blogwriter",
+      "title": "WordPress SEO Blogwriter",
+      "description": "Senior Content Strategist for high-intent, SEO-optimized, WordPress-ready blog posts.",
+      "version": "1.0.0",
+      "category": "seo",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "seo",
+        "blogwriting",
+        "copywriting"
+      ],
+      "path": "registry\\seo\\wordpress-blogwriter\\SKILL.md"
+    },
+    {
+      "name": "wordpress-forensic-audit",
+      "title": "WordPress Forensic UI & SEO Audit",
+      "description": "Performs a strict side-by-side audit of WordPress templates against React/HTML sources to ensure pixel-perfection.",
+      "version": "1.0.0",
+      "category": "seo",
+      "risk": "safe",
+      "author": "WHOISABHISHEKADHIKARI",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "ui-audit",
+        "seo",
+        "pixel-perfect"
+      ],
+      "path": "registry\\seo\\wordpress-forensic-audit\\SKILL.md"
+    }
+  ]
+}

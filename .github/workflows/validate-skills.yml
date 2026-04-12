@@ -1,0 +1,46 @@
+name: Tiny-Task Validation
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: "lts/*"
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Schema Validation
+        run: npm run validate
+
+      - name: Run JS Linting
+        run: npm run lint:js
+
+      - name: Run Markdown Linting
+        run: npm run lint:md
+
+      - name: AI-Powered Review
+        run: |
+          for file in $(find registry -name "SKILL.md"); do
+            npm run review -- "$file"
+          done
+
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      
+      - name: Gitleaks Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
