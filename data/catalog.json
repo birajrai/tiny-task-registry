@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-04-12T14:51:36.442Z",
+  "generatedAt": "2026-04-12T14:52:48.465Z",
   "skills": [
+    {
+      "name": "codebase-to-wordpress-converter",
+      "title": "Codebase to WordPress Converter",
+      "description": "Expert skill for converting any codebase (React/HTML/Next.js) into a pixel-perfect, SEO-optimized, and dynamic WordPress theme.",
+      "version": "1.0.0",
+      "category": "coding",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "react",
+        "nextjs",
+        "conversion",
+        "pixel-perfect"
+      ],
+      "path": "registry\\coding\\codebase-to-wordpress-converter\\SKILL.md"
+    },
     {
       "name": "wp-acf-conflict-fix",
       "title": "WordPress ACF Activation Conflict Fix",
