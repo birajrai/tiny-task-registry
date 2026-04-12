@@ -1,27 +1,45 @@
-# Tiny-Task Registry (TTR)
+# 🏗️ Tiny-Task Registry (TTR)
 
-A professional, scalable directory for micro-contributions and "tiny-tasks." This repository serves as the source of truth for all skills and automated workflows within the ecosystem.
+> **The definitive directory for high-performance, structured micro-contributions.**
 
-## 🚀 Getting Started
+The Tiny-Task Registry (TTR) is a professional ecosystem designed to manage and scale AI-powered "tiny-tasks." It provides a standardized architecture for drafting, validating, and deploying modular skills that can be integrated into any AI-driven workflow.
 
-To explore the available skills, check the [Registry](registry/) directory or browse the auto-generated [Catalog](data/catalog.json).
+---
 
-### Installation (CLI Tool)
-```bash
-npm install -g @tiny-task/cli
-```
+## 🚀 Key Advantages
 
-## 🛠 Repository Structure
+- **Standardized Architecture**: Every task follows a strict [Anatomy](docs/SKILL_TEMPLATE.md) and [Schema](registry/schema.json).
+- **Automated Quality Assurance**: Built-in [AI Reviewer](tools/scripts/ai-reviewer.js) and schema validation.
+- **High-Performance Execution**: Optimized for modern LLMs with clear, clinical, and actionable instruction sets.
+- **Scalable Discovery**: Auto-generated [Catalog](data/catalog.json) and categorized domain partitioning.
 
-- `registry/`: Categorized micro-tasks (Skills).
-- `data/`: Automated indices and metadata catalogs.
-- `tools/`: Validation engines and registry management scripts.
-- `docs/`: User guides and maintainer documentation.
+## 🛠 Repository Ecosystem
 
-## 🤝 Contributing
+- **`registry/`**: Categorized micro-tasks (Skills).
+- **`data/`**: Automated indices and metadata catalogs for high-speed discovery.
+- **`tools/`**: Our proprietary validation engines, linters, and [AI Reviewer](tools/scripts/ai-reviewer.js).
+- **`docs/`**: Professional [User Guides](docs/users/) and [Maintainer Documentation](docs/maintainers/).
 
-We love contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add your own tiny-tasks.
+## 🤝 Contributing with Excellence
+
+We maintain a high quality bar. To contribute your first tiny-task:
+
+1. **Fork the Repo**: Create your branch from `main`.
+2. **Consult the [Prompt Architect](registry/general/prompt-architect/SKILL.md)**: Use our built-in meta-skill to draft your task.
+3. **Validate Locally**: Run `npm run review -- registry/your-category/your-skill/SKILL.md`.
+4. **Submit a PR**: Provide clear intent and evidence of validation.
+
+Read the full [CONTRIBUTING.md](CONTRIBUTING.md) for detailed standards.
+
+## 🛡️ Governance & Security
+
+- **Safe by Design**: Every skill is risk-assessed before merge.
+- **Continuous Integration**: Automated security scanning for secrets and vulnerabilities.
+- **Semantic Versioning**: Skills are versioned to ensure backward compatibility.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+---
+*Created and maintained by the Tiny-Task Registry Contributors.*

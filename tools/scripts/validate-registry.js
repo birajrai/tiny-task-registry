@@ -24,7 +24,7 @@ function validateSkills(dir) {
             validateSkills(fullPath);
         } else if (item === 'SKILL.md') {
             const content = fs.readFileSync(fullPath, 'utf8');
-            const match = content.match(/^---\n([\s\S]*?)\n---/);
+            const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
             
             if (!match) {
                 console.error(`❌ Missing frontmatter in ${fullPath}`);

@@ -23,6 +23,18 @@ jobs:
       - name: Run Schema Validation
         run: npm run validate
 
+      - name: Run JS Linting
+        run: npm run lint:js
+
+      - name: Run Markdown Linting
+        run: npm run lint:md
+
+      - name: AI-Powered Review
+        run: |
+          for file in $(find registry -name "SKILL.md"); do
+            npm run review -- "$file"
+          done
+
   security-scan:
     runs-on: ubuntu-latest
     steps:

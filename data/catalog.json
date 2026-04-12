@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-04-12T14:29:32.891Z",
+  "skills": [
+    {
+      "name": "wordpress-blogwriter",
+      "title": "WordPress SEO Blogwriter",
+      "description": "Senior Content Strategist for high-intent, SEO-optimized, WordPress-ready blog posts.",
+      "version": "1.0.0",
+      "category": "seo",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "wordpress",
+        "seo",
+        "blogwriting",
+        "copywriting"
+      ],
+      "path": "registry\\seo\\wordpress-blogwriter\\SKILL.md"
+    }
+  ]
+}
