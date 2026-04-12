@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tiny-Task Skill Metadata",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Kebab-case unique identifier for the skill."
+    },
+    "title": {
+      "type": "string",
+      "description": "User-friendly title of the skill."
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the skill does."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "SemVer version string."
+    },
+    "category": {
+      "type": "string",
+      "enum": ["general", "seo", "coding", "marketing", "productivity"],
+      "description": "Domain category of the skill."
+    },
+    "risk": {
+      "type": "string",
+      "enum": ["safe", "low", "medium", "high"],
+      "description": "Security risk level."
+    },
+    "author": {
+      "type": "string",
+      "description": "GitHub username or name of the author."
+    },
+    "date_added": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when the skill was added (YYYY-MM-DD)."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for discovery."
+    }
+  },
+  "required": ["name", "title", "description", "version", "category", "risk", "author", "date_added"]
+}

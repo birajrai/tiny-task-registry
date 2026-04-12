@@ -1,0 +1,24 @@
+{
+  "name": "tiny-task-registry",
+  "version": "1.0.0",
+  "description": "Scalable directory for micro-contributions and tiny-tasks.",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node tools/scripts/validate-registry.js",
+    "build": "node tools/scripts/generate-catalog.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tiny-task",
+    "registry",
+    "skills",
+    "ai",
+    "micro-contributions"
+  ],
+  "author": "Tiny-Task Registry Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "ajv": "^8.12.0"
+  }
+}
