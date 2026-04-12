@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-12T14:57:53.436Z",
+  "generatedAt": "2026-04-12T15:28:52.340Z",
   "skills": [
     {
       "name": "wordpress-theme-architect",
@@ -52,6 +52,23 @@
         "guide"
       ],
       "path": "registry\\general\\prompt-architect\\SKILL.md"
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "title": "LinkedIn Profile Optimizer",
+      "description": "Expert Professional Branding Strategist for high-impact LinkedIn headlines, 'About' sections, and experience descriptions.",
+      "version": "1.0.0",
+      "category": "marketing",
+      "risk": "safe",
+      "author": "AbhishekAdhikari",
+      "date_added": "2026-04-12",
+      "tags": [
+        "linkedin",
+        "personal-branding",
+        "career",
+        "copywriting"
+      ],
+      "path": "registry\\marketing\\linkedin-profile-optimizer\\SKILL.md"
     },
     {
       "name": "wordpress-blogwriter",
