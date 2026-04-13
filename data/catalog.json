@@ -1,6 +1,33 @@
 {
-  "generatedAt": "2026-04-12T15:28:52.340Z",
+  "generatedAt": "2026-04-13T07:24:25.416Z",
   "skills": [
+    {
+      "name": "autodocker",
+      "title": "AutoDocker",
+      "description": "Expert skill for converting various project types (Laravel, Next.js, WordPress, Node.js, Golang, Python, Java, Ruby, etc.) into Docker-compatible setups, enabling easy deployment.",
+      "version": "1.0.0",
+      "category": "coding",
+      "risk": "safe",
+      "author": "birajrai",
+      "date_added": "2026-04-13",
+      "tags": [
+        "docker",
+        "deployment",
+        "laravel",
+        "nextjs",
+        "wordpress",
+        "nodejs",
+        "golang",
+        "python",
+        "django",
+        "java",
+        "spring-boot",
+        "ruby",
+        "rails",
+        "containerization"
+      ],
+      "path": "registry\\coding\\autodocker\\SKILL.md"
+    },
     {
       "name": "wordpress-theme-architect",
       "title": "WordPress Theme Architect",
